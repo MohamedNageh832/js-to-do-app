@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="Css/all.min.css" />
+    <link rel="stylesheet" href="Css/main.css" />
+  </head>
+  <body>
+    <!-- Start wrapper for overflow-x: hidden / browsers cancel this property from body -->
+    <div class="wrapper">
+
+      <!-- Start overlay -->
+      <div class="overlay hidden"></div>
+      <div class="overlay announcement-overlay hidden"></div>
+      <div class="overlay overlay-transparent hidden"></div>
+
+      <!-- Start navbar -->
+      <header class="navbar">
+        <button class="navbar-toggler">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+      </header>
+      <!-- Start navbar -->
+
+      <!-- Start main-sidebar -->
+      <aside class="main-sidebar togglable-menu">
+        <nav>
+          <a class="active" href="index.html"></a>
+          <a href="settings.html"></a>
+          <a href="about-us.html"></a>
+        </nav>
+      </aside>
+      <!-- End main-sidebar -->
+
+      <!-- Start info-holder about user -->
+      <main class="info-holder">
+        <div class="image-overlay"></div>
+        <div class="basic-info">
+          <h2 class="welcome-msg"></h2>
+          <small class="date"></small>
+        </div>
+
+        <!-- Start tasks-stats -->
+        <section class="tasks-stats">
+          <button class="btn more-options-btn"><i class="fas fa-ellipsis"></i></button>
+
+          <ul class="more-options-dropdown togglable-menu">
+            <li class="edit-tasks"></li>
+            <li class="delete-task"></li>
+            <li class="check-all-tasks"></li>
+            <li class="delete-all-tasks"></li>
+          </ul>
+
+          <ul class="tasks-num">
+            <li><span class="completed">0</span> <small></small></li>
+            <li>
+              <span class="in-progress">0</span> <small></small>
+            </li>
+          </ul>
+
+          <section class="progress-info">
+            <div class="progress-bar">
+              <div class="progress-fill"></div>
+            </div>
+            <small class="progress-percentage"></small>
+        </section>
+        <!-- End tasks-stats -->
+      </main>
+      <!-- End info-holder about user -->
+
+      <!-- Start current-tasks form / form tag => for the ability to use database in the future -->
+      <section class="current-tasks">
+        <h4 class="title"></h4>
+        <!-- Start tasks-list -->
+        <ul class="tasks-list"></ul>
+        <!-- End tasks-list -->
+      </section>
+      <!-- End current-tasks form -->
+
+      <!-- Start footer -->
+      <footer>
+        <section class="btns-holder">
+          <button class="btn add-new-task-btn"><i class="fas fa-plus"></i></button>  
+        </section>
+       </footer>
+      <!-- End footer -->
+    </div>
+
+    <script src="Js/all.min.js"></script>
+    <script src="Js/main.js"></script>
+    <script src="Js/plugins.js"></script>
+  </body>
+</html>

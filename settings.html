@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="Css/all.min.css" />
+    <link rel="stylesheet" href="Css/main.css" />
+    <style>
+      .navbar .navbar-toggler span {
+        background-color: var(--mainColor1);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Start wrapper for overflow-x: hidden / browsers cancel this property from body -->
+    <div class="wrapper">
+      <!-- Start overlay -->
+      <div class="overlay hidden"></div>
+      <div class="overlay overlay-transparent hidden"></div>
+
+      <!-- Start navbar -->
+      <header class="navbar">
+        <button class="navbar-toggler">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </header>
+      <!-- Start navbar -->
+
+      <!-- Start main-sidebar -->
+      <aside class="main-sidebar">
+        <nav>
+          <a href="index.html"></a>
+          <a class="active" href="settings.html"></a>
+          <a href="about-us.html"></a>
+        </nav>
+      </aside>
+      <!-- End main-sidebar -->
+
+      <!-- Start settings -->
+      <h2 class="main-title">Settings</h2>
+
+      <section class="settings-holder">
+        <ul class="settings">
+          <li class="settings-option">
+            <span class="title">Add new tasks on top</span>
+
+            <section class="toggler-holder">
+              <button class="option-toggler active">
+                <span class="toggler-ball"></span>
+              </button>
+              <small class="toggler-status">off</small>
+            </section>
+          </li>
+          <li class="settings-option">
+            <span class="title">Play compeletion sound</span>
+
+            <section class="toggler-holder">
+              <button class="option-toggler">
+                <span class="toggler-ball"></span>
+              </button>
+              <small class="toggler-status">off</small>
+            </section>
+          </li>
+          <li class="settings-option">
+            <span class="title">Confirm before deletion</span>
+
+            <section class="toggler-holder">
+              <button class="option-toggler">
+                <span class="toggler-ball"></span>
+              </button>
+              <small class="toggler-status">off</small>
+            </section>
+          </li>
+          <li class="settings-option">
+            <span class="title">Theme</span>
+
+            <section class="radio-holder">
+              <input id="theme-light" type="radio" name="theme" value="Light" />
+              <label for="theme-light">Light</label>
+
+              <input id="theme-dark" type="radio" name="theme" value="Dark" />
+              <label for="theme-dark">Dark</label>
+            </section>
+          </li>
+          <li class="settings-option">
+            <span class="title">Language</span>
+
+            <select class="lang-select-box">
+              <option value="0">العربية</option>
+              <option value="1">English</option>
+            </select>
+          </li>
+        </ul>
+      </section>
+      <!-- End settings -->
+    </div>
+
+    <script src="Js/all.min.js"></script>
+    <script src="Js/main.js"></script>
+    <script src="Js/settings.js"></script>
+  </body>
+</html>

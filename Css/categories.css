@@ -1,0 +1,45 @@
+:root {
+  --textColor1: #000;
+}
+
+.wrapper {
+  background-color: #eee;
+  min-height: 100vh;
+}
+
+.navbar {
+  position: static;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 2px solid #0d6efd;
+}
+
+.navbar .navbar-toggler {
+  position: absolute;
+  top: 0.9rem;
+  left: 0.5rem;
+  z-index: 5;
+}
+
+.navbar .logo {
+  margin: 0 auto;
+}
+
+.categories {
+  padding: var(--s2) 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--s2);
+}
+
+.category {
+  background-color: #fff;
+  padding: var(--s2);
+  border-radius: var(--mainBR);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.category small {
+  color: rgba(0, 0, 0, 0.5);
+}

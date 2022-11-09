@@ -1,0 +1,45 @@
+* {
+  direction: rtl;
+}
+
+.main-sidebar {
+  left: auto;
+  right: 0;
+  transform: translateX(100%);
+}
+
+.info-holder .tasks-stats {
+  right: auto;
+  left: 0;
+}
+
+.info-holder .tasks-stats .more-options-dropdown {
+  right: auto;
+  left: 10px;
+}
+
+.current-tasks .tasks-list .task-holder .delete-task-btn {
+  right: auto;
+  left: 0;
+}
+
+.btns-holder button {
+  right: auto;
+  left: 20px;
+}
+
+/* Settings */
+.radio-holder label {
+  margin-right: 2px;
+}
+
+.radio-holder label:not(:last-of-type) {
+  margin-right: 2px;
+  margin-left: 0.6rem;
+}
+
+/* Start components */
+.confirm-deletion .confirm-btn {
+  margin-right: 0;
+  margin-left: var(--s2);
+}

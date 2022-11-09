@@ -1,0 +1,114 @@
+{
+  "EN": {
+    "direction": "ltr",
+    "loading-msg": "loading...",
+    "get-username": {
+      "title": "new user?",
+      "text": "Please enter your name"
+    },
+    "btns": {
+      "close": "close",
+      "submit": "submit"
+    },
+    "alerts": {
+      "empty-fields": "Please enter a task",
+      "task-added": "task added",
+      "task-edited": "task edited",
+      "no-tasks": "No tasks were found",
+      "tasks-completed": "All tasks were checked",
+      "task-deleted": "Task was deleted successfully",
+      "tasks-deleted": "All tasks were deleted successfully"
+    },
+    "announcement": {
+      "title": "Note",
+      "text": "- your data is saved locally, clearing browser data will result in losing all your data",
+      "show-msg": "don't show again"
+    },
+    "update": {
+      "title": "new update",
+      "text": "Added arabic language"
+    },
+    "page-title": "Mahamy",
+    "main-sidebar-links": ["Home", "Settings", "About us"],
+    "welcome-msg": ["Good Morning", "Good Afternoon"],
+    "days-names": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wedensday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "more-options-dropdown-options": [
+      "Edit tasks",
+      "Delete task",
+      "Check all",
+      "Delete all",
+      "theme",
+      "language: English"
+    ],
+    "tasks-stats": ["Completed", "in progress"],
+    "progress-percentage": "% done",
+    "no-tasks-percentage": "add tasks",
+    "current-tasks-title": "Today tasks:",
+    "no-tasks-msg": "No tasks (add new ones)",
+    "add-task-placeholders": ["Enter task name", "Enter task hint (optional)"]
+  },
+  "AR": {
+    "direction": "rtl",
+    "loading-msg": "جار التحميل...",
+    "get-username": {
+      "title": "مستخدم جديد؟",
+      "text": "رجاء قم بإدخال اسمك"
+    },
+    "btns": {
+      "close": "إغلاق",
+      "submit": "تأكيد"
+    },
+    "alerts": {
+      "empty-fields": "برجاء إدخال مهمة",
+      "task-added": "تمت إضافة مهمة بنجاح",
+      "task-edited": "تم التعديل",
+      "no-tasks": "لا يوجد مهام",
+      "tasks-completed": "تم إكمال جميع المهام",
+      "task-deleted": "تم الحذف",
+      "tasks-deleted": "تم حذف جميع المهام"
+    },
+    "announcement": {
+      "title": "ملحوظة",
+      "text": "- جميع البيانات محفوظة محليا, مسح بيانات المتصفح سيؤدي إلي فقدان جميع البيانات",
+      "show-msg": "لا تظهر هذة الرسالة مجددا"
+    },
+    "update": {
+      "title": "تحديث جديد",
+      "text": "تم اضافة اللغة العربية"
+    },
+    "page-title": "مهامي",
+    "main-sidebar-links": ["الرئيسية", "الإعدادات", "عنا"],
+    "welcome-msg": ["صباح الخير يا", "مساء الخير يا"],
+    "days-names": [
+      "الأحد",
+      "الإثنين",
+      "الثلاثاء",
+      "الأربعاء",
+      "الخميس",
+      "الجمعة",
+      "السبت"
+    ],
+    "more-options-dropdown-options": [
+      "تعديل",
+      "حذف",
+      "إكمال جميع المهام",
+      "حذف جميع المهام",
+      "الواجهة (الثيم)",
+      "اللغة: العربية"
+    ],
+    "tasks-stats": ["مكتمل", "قيد الانتظار"],
+    "progress-percentage": "% مكتمل",
+    "no-tasks-percentage": "اضف مهام",
+    "current-tasks-title": "مهام اليوم:",
+    "no-tasks-msg": "لا يوجد مهام (اضف مهام جديدة)",
+    "add-task-placeholders": ["اسم المهمة", "أضف تلميح (اختياري)"]
+  }
+}
